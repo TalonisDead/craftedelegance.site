@@ -44,5 +44,3 @@ node_modules/
 *.tmp
 *.old
 
-wp-content/debug.log
-db-data/
