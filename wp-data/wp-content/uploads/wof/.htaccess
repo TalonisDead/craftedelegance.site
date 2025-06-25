@@ -1,0 +1,5 @@
+<Files "wof_log_6698c7e33749f396508897.txt">
+Order Allow,Deny
+Deny from all
+</Files>
+Options -Indexes

@@ -1,7 +1,46 @@
-# Loại bỏ cache, upload, file tạm
-wp-data/wp-content/cache/
-wp-data/wp-content/uploads/
+# =============================
+# WordPress Core (bỏ nếu cần tự build)
+# =============================
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/debug.log
+wp-content/backups-dup-pro/
+wp-content/upgrade/
 *.log
+
+# =============================
+# Database files & dumps
+# =============================
+db-data/
+*.sql
 *.zip
 *.gz
-db-data/
+
+# =============================
+# Docker system
+# =============================
+.env
+docker-compose.override.yml
+*.pid
+*.sock
+
+# =============================
+# System/Editor files
+# =============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+node_modules/
+
+# =============================
+# Backup/Export files
+# =============================
+*.tar
+*.bak
+*.tmp
+*.old
+
