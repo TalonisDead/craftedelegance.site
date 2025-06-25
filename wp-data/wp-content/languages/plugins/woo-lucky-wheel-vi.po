@@ -1,0 +1,1128 @@
+# Translation of Plugins - Lucky Wheel for WooCommerce &#8211; Spin a Sale - Development (trunk) in Vietnamese
+# This file is distributed under the same license as the Plugins - Lucky Wheel for WooCommerce &#8211; Spin a Sale - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-10 08:48:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Lucky Wheel for WooCommerce &#8211; Spin a Sale - Development (trunk)\n"
+
+#: woo-lucky-wheel.php:117
+msgid "Email"
+msgstr "Email"
+
+#: woo-lucky-wheel.php:116
+msgid "Lucky Wheel Email"
+msgstr "Lucky Wheel Email"
+
+#: admin/admin.php:563
+msgid "Custom popup icon background color"
+msgstr "Màu nền biểu tượng"
+
+#: admin/admin.php:554
+msgid "Custom popup icon color"
+msgstr "Màu biểu tượng"
+
+#: admin/admin.php:545
+msgid "Custom popup icon"
+msgstr "Biểu tượng popup"
+
+#: admin/admin.php:1148
+msgid "%s - Premium version only"
+msgstr "%s - Chỉ khả dụng ở phiên bản trả phí"
+
+#: admin/admin.php:1134
+msgid "Wheel speed"
+msgstr "Tốc độ vòng quay"
+
+#: woo-lucky-wheel.php:227
+msgid "Please install and activate WooCommerce to use Lucky Wheel for WooCommerce."
+msgstr "Vui lòng cài đặt WooCommerce để sử dụng Lucky Wheel for WooCommerce."
+
+#: woo-lucky-wheel.php:127
+msgid "Lucky Wheel for WooCommerce emails."
+msgstr "Lucky Wheel for WooCommerce emails."
+
+#: admin/admin.php:713
+msgid "Let you control on which pages Lucky Wheel for Woocommerce appears using "
+msgstr "Bạn kiểm soát hiển thị Lucky Wheel for WooCommerce bằng cách sử dụng"
+
+#: admin/admin.php:438
+msgid "Lucky Wheel for WooCommerce Settings"
+msgstr "Cài đặt Lucky Wheel for WooCommerce"
+
+#. Plugin Name of the plugin
+#: woo-lucky-wheel.php admin/admin.php:45
+msgid "Lucky Wheel for WooCommerce"
+msgstr "Lucky Wheel for WooCommerce"
+
+#: admin/admin.php:1864
+msgid "Sendgrid lists"
+msgstr "Danh sách Sendgrid"
+
+#: admin/admin.php:1855
+msgid "SendGrid API Key"
+msgstr "SendGrid API Key"
+
+#: admin/admin.php:1846
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#: admin/admin.php:1833
+msgid "Active Campaign list"
+msgstr "Danh sách Active Campaign"
+
+#: admin/admin.php:1824
+msgid "Active Campaign API URL"
+msgstr "Active Campaign API URL"
+
+#: admin/admin.php:1815
+msgid "Active Campaign API Key"
+msgstr "Active Campaign API Key"
+
+#: admin/admin.php:1806
+msgid "Active Campaign"
+msgstr "Active Campaign"
+
+#: admin/admin.php:1687
+msgid "Product categories that the coupon will not be applied to, or that cannot be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Danh mục sản phẩm không được áp dụng phiếu giảm giá, hoặc không được có sản phẩm thuộc danh mục này trong giỏ hàng để \"Giảm giá giỏ hàng cố định\" được áp dụng. "
+
+#: admin/admin.php:1664
+msgid "Exclude categories"
+msgstr "Loại trừ Danh mục"
+
+#: admin/admin.php:1659
+msgid "Product categories that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Danh mục sản phẩm được áp dụng phiếu giảm giá, hoặc cần có sản phẩm thuộc danh mục này trong giỏ hàng để \"Giảm giá giỏ hàng cố định\" được áp dụng. "
+
+#: admin/admin.php:1643 admin/admin.php:1671
+msgid "Please enter categories name"
+msgstr "Vui lòng điền tên danh mục"
+
+#: admin/admin.php:1636
+msgid "Include categories"
+msgstr "Bao gồm danh mục"
+
+#: admin/admin.php:1631
+msgid "Products that the coupon will not be applied to, or that cannot be in the cart in order for the \"Fixed cart discount\" to be applied."
+msgstr "Sản phẩm không được áp dụng phiếu giảm giá, hoặc không được có sản phẩm này trong giỏ hàng để \"Giảm giá giỏ hàng cố định\" được áp dụng. "
+
+#: admin/admin.php:1608
+msgid "Exclude Products"
+msgstr "Loại trừ Sản phẩm"
+
+#: admin/admin.php:1603
+msgid "Products that the coupon will be applied to, or that need to be in the cart in order for the \"Fixed cart discount\" to be applied"
+msgstr "Sản phẩm được áp dụng phiếu giảm giá, hoặc cần có sản phẩm này trong giỏ hàng để \"Giảm giá giỏ hàng cố định\" được áp dụng"
+
+#: admin/admin.php:1581
+msgid "Include Products"
+msgstr "Bao gồm sản phẩm"
+
+#: admin/admin.php:1484
+msgid "Winning effect"
+msgstr "Hiệu ứng thắng giải"
+
+#: admin/admin.php:1448
+msgid "Button \"Shop now\" font size(px)"
+msgstr "Kích cỡ chữ nút \"Đi tới cửa hàng\""
+
+#: admin/admin.php:1439
+msgid "Button \"Shop now\" background color"
+msgstr "Màu nền nút \"Đi tới cửa hàng\""
+
+#: admin/admin.php:1430
+msgid "Button \"Shop now\" color"
+msgstr "Màu chữ nút \"Đi tới cửa hàng\""
+
+#: admin/admin.php:1419
+msgid "Button \"Shop now\" title"
+msgstr "Tiêu đề nút \"Đi tới cửa hàng\""
+
+#: admin/admin.php:1414
+msgid "These products will be added at the end of email content with product image thumbnail, product title, product price and a button linked to product page which is design the same as button {shop_now}"
+msgstr "Những sản phẩm này sẽ được thêm vào cuối nội dung email, bao gồm ảnh đại diện sản phẩm, tên sản phẩm, giá và nút dẫn tới trang sản phẩm được thiết kế giống nút {shop_now}"
+
+#: admin/admin.php:1408
+msgid "Suggested products"
+msgstr "Sản phẩm gợi ý"
+
+#: admin/admin.php:1399
+msgid "Button \"Shop now\" URL"
+msgstr "Đường dẫn nút \"Đi tới cửa hàng\""
+
+#: admin/admin.php:1214
+msgid "Use {coupon_amount} for WooCommerce coupon type to refer to the amount of that coupon. e.g: Coupon type is percentage discount, coupon value is 10 then {coupon_amount} will become 10% when printing out on the wheel."
+msgstr "Sử dụng <strong>{coupon_amount}</strong> cho loại phiếu giảm giá WooCommerce để hiển thị giá trị giảm giá cho phiếu đó. Ví dụ: Phiếu giảm giá là Giảm giá theo phần trăm, giá trị là 10 thì  <strong>{coupon_amount}</strong> là 10% khi hiển thị trên vòng quay. "
+
+#: admin/admin.php:1181
+msgid "Adjust wheel size by(%)"
+msgstr "Điều chỉnh Kích cỡ Vòng quay(%)"
+
+#: admin/admin.php:1172
+msgid "Adjust font size of text on the wheel by(%)"
+msgstr "Điều chỉnh cỡ chữ trên vòng quay"
+
+#: admin/admin.php:1166
+msgid "Make all wheel slices visible on desktop"
+msgstr "Hiển thị toàn bộ vòng quay"
+
+#: admin/admin.php:1159
+msgid "Show full wheel"
+msgstr "Hiện toàn bộ vòng quay"
+
+#: admin/admin.php:1106
+msgid "Displayed Currency"
+msgstr "Tiền tệ hiển thị"
+
+#: admin/admin.php:1039
+msgid "Random - Premium version only"
+msgstr "Random - Chỉ khả dụng ở phiên bản trả phí"
+
+#: admin/admin.php:1021
+msgid "Preview Wheel"
+msgstr "Xem trước Vòng quay"
+
+#: admin/admin.php:1010
+msgid "Field mobile is required"
+msgstr "Trường \"Số điện thoại\" là bắt buộc"
+
+#: admin/admin.php:1001
+msgid "Enable field mobile on mobile"
+msgstr "Hiển thị trường \"Số điện thoại\" trên di động"
+
+#: admin/admin.php:992
+msgid "Enable field mobile"
+msgstr "Hiển thị trường \"Số điện thoại\""
+
+#: admin/admin.php:975
+msgid "Field name is required"
+msgstr "Trường \"Tên\" là bắt buộc"
+
+#: admin/admin.php:961
+msgid "Enable field name on mobile"
+msgstr "Hiển thị trường \"Tên\""
+
+#: admin/admin.php:947
+msgid "Enable field name"
+msgstr "Bật trường \"Tên\""
+
+#: admin/admin.php:932
+msgid "Custom css"
+msgstr "CSS tùy chỉnh"
+
+#: admin/admin.php:811
+msgid "Text color"
+msgstr "Màu chữ"
+
+#: admin/admin.php:802
+msgid "Background effect"
+msgstr "Hiệu ứng nền"
+
+#: admin/admin.php:595
+msgid "Automatically show wheel after initial time"
+msgstr "Tự động hiện vòng quay sau khoảng thời gian"
+
+#: admin/admin.php:502
+msgid "REST API"
+msgstr "REST API"
+
+#: admin/admin.php:495
+msgid "Ajax"
+msgstr "Ajax"
+
+#: admin/admin.php:488
+msgid "Ajax endpoint"
+msgstr "Ajax endpoint"
+
+#: admin/admin.php:455
+msgid "Unique Coupon"
+msgstr "Phiếu giảm giá tùy chỉnh"
+
+#: admin/admin.php:449
+msgid "Custom Fields"
+msgstr "Trường Tùy chỉnh"
+
+#: admin/admin.php:447
+msgid "Wheel Background"
+msgstr "Nền Vòng quay"
+
+#: admin/admin.php:71
+msgid "Preview emails"
+msgstr "Xem trước"
+
+#: frontend/frontend.php:637
+msgid "Name is required"
+msgstr "Vui lòng điền tên"
+
+#: frontend/frontend.php:630
+msgid "Email is invalid"
+msgstr "Email không hợp lệ"
+
+#: frontend/frontend.php:351 frontend/frontend.php:501
+msgid "Please enter your mobile"
+msgstr "Vui lòng nhập số điện thoại"
+
+#: frontend/frontend.php:277
+msgid "Name is required!"
+msgstr "Vui lòng điền tên"
+
+#: admin/admin.php:156 admin/admin.php:1393 admin/admin.php:1994
+#: frontend/frontend.php:33
+msgid "Shop now"
+msgstr "Đi tới cửa hàng"
+
+#: admin/admin.php:2087
+msgid "Please enter value for custom type."
+msgstr "Vui lòng điền giá trị cho kiểu tùy chỉnh."
+
+#: admin/admin.php:2076
+msgid "Please enter value for existing coupon."
+msgstr "Vui lòng điền giá trị cho phiếu giảm giá đang có."
+
+#: admin/admin.php:2065
+msgid "Label cannot be empty."
+msgstr "Nhãn không được để trống."
+
+#: admin/admin.php:2049
+msgid "The amount of Valued-coupon must be greater than or equal zero!"
+msgstr "Số lượng Phiếu giảm giá có giá trị phải lớn hơn hoặc bằng 0!"
+
+#: admin/admin.php:2034
+msgid "The amount of Non-coupon must be left blank or zero!"
+msgstr "Số lượng Phiếu giảm giá không có giá trị phải để trống hoặc bằng 0!"
+
+#: admin/admin.php:2022
+msgid "The total probability must be equal to 100%!"
+msgstr "Tổng xác suất phải bằng 100%!"
+
+#: admin/admin.php:2011
+msgid "Free version only includes from 3 to 6 slices. Upgrade to Premium version to add up to 20 slices."
+msgstr "Bản miễn phí bao gồm từ 3 đến 6 mục bánh xe. Vui lòng nâng cấp lên bản Cao cấp để thêm đến 20 mục."
+
+#: admin/admin.php:166 frontend/frontend.php:40
+msgid "never expires"
+msgstr "Không bao giờ hết hạn"
+
+#: frontend/frontend.php:272
+msgid "*Please enter a valid email address"
+msgstr "*Vui lòng điền địa chỉ thư điện tử hợp lệ"
+
+#: frontend/frontend.php:271
+msgid "*Please enter your email"
+msgstr "*Vui lòng điền địa chỉ thư điện tử"
+
+#: frontend/frontend.php:255
+msgid "Please agree with our term and condition."
+msgstr "Vui lòng đồng ý với các điều khoản và điều kiện "
+
+#: frontend/frontend.php:233
+msgid "You can only spin 1 time every %s days"
+msgstr "Chỉ được quay 1 lần mỗi %s ngày"
+
+#: frontend/frontend.php:230
+msgid "You can only spin 1 time every %s hours"
+msgstr "Chỉ được quay 1 lần mỗi %s giờ"
+
+#: frontend/frontend.php:227
+msgid "You can only spin 1 time every %s minutes"
+msgstr "Chỉ được quay 1 lần mỗi %s phút"
+
+#: frontend/frontend.php:224
+msgid "You can only spin 1 time every %s seconds"
+msgstr "Chỉ được quay 1 lần mỗi %s giây"
+
+#: frontend/frontend.php:221
+msgid "You have to wait until your next spin."
+msgstr "Xin vui lòng đợi đến lượt quay tiếp theo."
+
+#: frontend/frontend.php:763 frontend/frontend.php:877
+msgid "Congrats! You have won a {coupon_label} discount coupon. The coupon was sent to the email address that you had entered to spin. Thank You!"
+msgstr "Chúc mừng! Bạn đã giành được một phiếu giảm giá {coupon_label}. Phiếu thưởng đã được gửi đến địa chỉ email bạn vừa nhập. Cảm ơn!"
+
+#: frontend/frontend.php:731
+msgid " to be able to spin again."
+msgstr "để có thể quay tiếp lần nữa. "
+
+#: frontend/frontend.php:731
+msgid "You have to wait "
+msgstr "Xin vui lòng đợi"
+
+#: frontend/frontend.php:729
+msgid "%s minutes %s seconds"
+msgstr "%s phút %s giây"
+
+#: frontend/frontend.php:727
+msgid "%s hours %s minutes %s seconds"
+msgstr "%s giờ %s phút %s giây"
+
+#: frontend/frontend.php:725
+msgid "%s days %s hours %s minutes %s seconds"
+msgstr "%s ngày %s giờ %s phút %s giây"
+
+#: frontend/frontend.php:723
+msgid " seconds"
+msgstr "giây"
+
+#: frontend/frontend.php:715
+msgid "This email has reach the maximum spins."
+msgstr "Email này đã hết lượt quay"
+
+#: frontend/frontend.php:685
+msgid "Sorry, this email is marked as spam now. Please enter another email to continue."
+msgstr "Địa chỉ thư điện tử này đã được đánh dấu là thư rác. Vui lòng điền một địa chỉ khác để tiếp tục. "
+
+#: frontend/frontend.php:661
+msgid "OOPS! You are not lucky today. Sorry."
+msgstr "Chúc bạn may mắn lần sau"
+
+#: admin/admin.php:741
+msgid " to hide wheel on homepage"
+msgstr "để ẩn vòng quay tại trang chủ"
+
+#: admin/admin.php:740
+msgid "Use exclamation mark(!) before a conditional to hide wheel if the conditional matched. e.g use "
+msgstr "Dùng dấu chấm than(!) trước một điều kiện để ẩn vòng quay đi nếu điều kiện đó khớp. ví dụ sử dụng"
+
+#: admin/admin.php:737
+msgid " to show only on cart page and checkout page"
+msgstr "để chỉ hiển thị trên trang giỏ hàng và trang thanh toán"
+
+#: admin/admin.php:735
+msgid "Combining 2 or more conditionals using || to show wheel if 1 of the conditionals matched. e.g use "
+msgstr "Kết hợp 2 điều kiện hay nhiều hơn, sử dung || để hiển thị vòng quay nếu 1 điều kiện khớp. VD sử dụng"
+
+#: admin/admin.php:732
+msgid " to show only on WooCommerce single product page"
+msgstr "để chỉ hiển thị trên trang sản phẩm của WooCommerce"
+
+#: admin/admin.php:729
+msgid " to show only on WooCommerce shop page"
+msgstr "để chỉ hiển thị trên trang cửa hàng của WooCommerce"
+
+#: admin/admin.php:726
+msgid "to show only on WooCommerce category page"
+msgstr "Để chỉ hiển thị trên trang danh mục sản phẩm của WooCommrece"
+
+#: admin/admin.php:723
+msgid " to show only on checkout page"
+msgstr "để chỉ hiển thị trên trang thanh toán"
+
+#: admin/admin.php:720
+msgid " to show only on cart page"
+msgstr "để chỉ hiển thị trên trang giỏ hàng"
+
+#: admin/admin.php:719 admin/admin.php:722 admin/admin.php:725
+#: admin/admin.php:728 admin/admin.php:731
+msgid "Use "
+msgstr "Sử dụng"
+
+#: admin/admin.php:717
+msgid "\"Home page\", \"Blog page\" and \"Shop page\" options above must be disabled to run these conditional tags."
+msgstr "Ba lựa chọn chỉ hiển thị trên trang \"Cửa hàng\", \"Trang chủ\" và \"Bài viết\" phải tắt để chạy tính năng tags điều kiện này. "
+
+#: admin/admin.php:708
+msgid "Ex: !is_page(array(123,41,20))"
+msgstr "Ex: !is_page(array(123,41,20))"
+
+#: frontend/frontend.php:379 frontend/frontend.php:529
+msgid "I agree with the term and condition"
+msgstr "Đồng ý với các điều khoản và điều kiện"
+
+#: frontend/frontend.php:360 frontend/frontend.php:510
+msgid "Please enter your email"
+msgstr "Vui lòng nhập địa chỉ thư điện tử"
+
+#: frontend/frontend.php:341 frontend/frontend.php:491
+msgid "Please enter your name"
+msgstr "Vui lòng nhập tên"
+
+#: admin/admin.php:921
+msgid "GDPR message"
+msgstr "Thông báo GDPR"
+
+#: admin/admin.php:908
+msgid "GDPR checkbox"
+msgstr "Hộp kiểm GDPR"
+
+#: admin/admin.php:1190
+msgid "Slices text color"
+msgstr "Màu chữ"
+
+#: admin/admin.php:631
+msgid "If customers close and not spin, show popup again after"
+msgstr "Nếu khách hàng tắt hoặc không quay, sẽ hiển thị Popup lại sau"
+
+#: admin/admin.php:601
+msgid "Random one of these above - Premium version only"
+msgstr "Random một trong các lựa chọn trên Chỉ khả dụng ở phiên bản trả phí"
+
+#: admin/admin.php:599
+msgid "Show wheel when users move mouse over the top to close browser - Premium version only"
+msgstr "Hiển thị vòng quay khi người dùng di chuột đến nút tắt trình duyệt - Chỉ khả dụng ở phiên bản trả phí"
+
+#: admin/admin.php:597
+msgid "Show wheel after users scroll down a specific value - Premium version only"
+msgstr "Hiển thị vòng quay sau khi người dùng cuộn xuống một khoảng nhất định - Chỉ khả dụng ở phiên bản trả phí"
+
+#: admin/admin.php:457
+msgid "Email API"
+msgstr "Email API"
+
+#: admin/admin.php:1356 admin/admin.php:1368 admin/admin.php:1389
+msgid "Coupon label/custom label that customers win"
+msgstr "Nhãn phiếu giảm giá/Nhãn tùy chỉnh mà khách hàng thắng được"
+
+#: admin/admin.php:1387 admin/admin.php:1478
+msgid "Coupon code/custom value will be sent to customer."
+msgstr "Mã giảm giá/Giá trị tùy chỉnh được gửi đến khách hàng. "
+
+#: admin/admin.php:892
+msgid "Select font"
+msgstr "Chọn kiểu chữ"
+
+#: admin/admin.php:863
+msgid "Button spin background color"
+msgstr "Màu Nền Nút Quay"
+
+#: admin/admin.php:848
+msgid "Button spin color"
+msgstr "Màu Nút Quay"
+
+#: admin/admin.php:837
+msgid "Button spin"
+msgstr "Nút Quay Thưởng"
+
+#: admin/admin.php:572
+msgid "Popup icon position"
+msgstr "Vị trí biểu tượng"
+
+#: admin/admin.php:45
+msgid "WC Lucky Wheel"
+msgstr "WC Lucky Wheel"
+
+#: woo-lucky-wheel.php:150
+msgid "Labels"
+msgstr "Nhãn"
+
+#: admin/admin.php:1340
+msgid "seconds"
+msgstr "Giây"
+
+#: admin/admin.php:1342
+msgid "Left 0 to disable this feature"
+msgstr "Điền giá trị 0 để vô hiệu hóa tính năng này"
+
+#: admin/admin.php:1296
+msgid "Clone"
+msgstr "Nhân đôi"
+
+#: admin/admin.php:1273
+msgid "Enter Code"
+msgstr "Điền mã"
+
+#: admin/admin.php:1227
+msgid "Existing coupon"
+msgstr "Phiếu giảm giá có sẵn"
+
+#: admin/admin.php:1210
+msgid "Color"
+msgstr "Màu"
+
+#: admin/admin.php:1208
+msgid "Value"
+msgstr "Giá trị"
+
+#: admin/admin.php:1207
+msgid "Label"
+msgstr "Nhãn"
+
+#: admin/admin.php:1205
+msgid "Index"
+msgstr "Mục"
+
+#: admin/admin.php:880
+msgid "Show text option to not display wheel again"
+msgstr "Hiển thị tùy chọn tắt vòng quay"
+
+#: admin/admin.php:692
+msgid "Show only on Shop page"
+msgstr "Chỉ hiển thị trên trang Cửa hàng"
+
+#: admin/admin.php:679
+msgid "Show only on Blog page"
+msgstr "Chỉ hiển thị trên trang Bài viết"
+
+#: admin/admin.php:667
+msgid "Show only on Homepage"
+msgstr "Hiển thị trên Trang chủ"
+
+#: frontend/frontend.php:394 frontend/frontend.php:544
+msgid "No thanks"
+msgstr "Không, cảm ơn"
+
+#: frontend/frontend.php:388 frontend/frontend.php:538
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: frontend/frontend.php:391 frontend/frontend.php:541
+msgid "Remind later"
+msgstr "Nhắc lại sau"
+
+#: admin/admin.php:1476
+msgid "Email that customers enter to spin"
+msgstr "Email khách hàng đã nhập"
+
+#: admin/admin.php:1474
+msgid "Customers'name if they enter"
+msgstr "Tên khách hàng nếu được điền"
+
+#: admin/admin.php:1319
+msgid "Auto Color"
+msgstr "Màu tự động"
+
+#: admin/admin.php:1231
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+#: admin/admin.php:1061
+msgid "Wheel center background image"
+msgstr "Ảnh nền vùng trung tâm"
+
+#: admin/admin.php:1037
+msgid "Bottom - Premium version only"
+msgstr "Bottom - Chỉ khả dụng ở phiên bản trả phí"
+
+#: admin/admin.php:1035
+msgid "Right - Premium version only"
+msgstr "Right - Chỉ khả dụng ở phiên bản trả phí"
+
+#: admin/admin.php:1033
+msgid "Top - Premium version only"
+msgstr "Top - Chỉ khả dụng ở phiên bản trả phí"
+
+#: admin/admin.php:613
+msgid "Enter min,max to set random between min and max (seconds)."
+msgstr "Nhập khoảng (nhỏ nhất, lớn nhất) để tự động lấy giá trị trong khoảng đó (Đơn vị: Giây)"
+
+#: admin/admin.php:619
+msgid "Hide popup icon"
+msgstr "Ẩn biểu tượng popup"
+
+#: admin/admin.php:594
+msgid "Popup icon"
+msgstr "Biểu tượng popup"
+
+#: admin/admin.php:589
+msgid "Select intent"
+msgstr "Hành động hiển thị vòng quay"
+
+#: admin/admin.php:509
+msgid "Times spinning per email"
+msgstr "Số lần quay cho mỗi email"
+
+#. Author URI of the plugin
+#: woo-lucky-wheel.php
+msgid "http://villatheme.com"
+msgstr "http://villatheme.com"
+
+#. Author of the plugin
+#: woo-lucky-wheel.php
+msgid "VillaTheme"
+msgstr "VillaTheme"
+
+#: frontend/frontend.php:367 frontend/frontend.php:517
+msgid "Try Your Lucky"
+msgstr "Thử vận may của bạn"
+
+#: admin/admin.php:2107
+msgid "Your settings have been saved!"
+msgstr "Cài đặt của bạn đã được lưu!"
+
+#: admin/admin.php:1876
+msgid "Save"
+msgstr "Lưu"
+
+#: admin/admin.php:1777
+msgid "Mailchimp lists"
+msgstr "Danh sách Mailchimp"
+
+#: admin/admin.php:1771
+msgid "here"
+msgstr "ở đây"
+
+#: admin/admin.php:1770
+msgid " The API key for connecting with your MailChimp account. Get your API key "
+msgstr "API key để kết nối tới tài khoản MailChimp. Lấy API key. "
+
+#: admin/admin.php:1764
+msgid "API key"
+msgstr "API key"
+
+#: admin/admin.php:1758
+msgid "Turn on to use MailChimp system"
+msgstr "Bật để sử dụng hệ thống MailChimp"
+
+#: admin/admin.php:1750
+msgid "Enable Mailchimp"
+msgstr "Kích hoạt Mailchimp"
+
+#: admin/admin.php:1734
+msgid "Coupon code prefix"
+msgstr "Tiền tố mã giảm giá"
+
+#: admin/admin.php:1727
+msgid "Unlimited Usage"
+msgstr "Sử dụng không giới hạn"
+
+#: admin/admin.php:1729
+msgid "How many times this coupon can be used by an individual user."
+msgstr "Số lần một người dùng cá nhân được phép dùng phiếu giảm giá"
+
+#: admin/admin.php:1720
+msgid "Usage limit per user"
+msgstr "Giới hạn sử dụng cho mỗi người dùng"
+
+#: admin/admin.php:1713
+msgid "Apply To All Qualifying Items In Cart"
+msgstr "Áp Dụng Với Tất Cả Sản Phẩm Đủ Tiêu Chuẩn Trong Giỏ Hàng"
+
+#: admin/admin.php:1715
+msgid "The maximum number of individual items this coupon can apply to when using product discount."
+msgstr "Số lượng tối đa các sản phẩm đơn lẻ mà phiếu giảm giá được áp dụng."
+
+#: admin/admin.php:1706
+msgid "Limit usage to X items"
+msgstr "Giới hạn sử dụng với sản phẩm X"
+
+#: admin/admin.php:1701
+msgid "How many times this coupon can be used before it is void."
+msgstr "Được phép sử dụng phiếu giảm giá này bao nhiêu lần. "
+
+#: admin/admin.php:1693
+msgid "Usage limit per coupon"
+msgstr "Giới hạn sử dụng cho mỗi phiếu giảm giá"
+
+#: admin/admin.php:1587 admin/admin.php:1615
+msgid "Please Fill In Your Product Title"
+msgstr "Vui Lòng Điền Tiêu Đề Sản Phẩm"
+
+#: admin/admin.php:1576
+msgid "Check this box if the coupon should not apply to items on sale. Per-item coupons will only work if the item is not on sale. Per-cart coupons will only work if there are items in the cart that are not on sale."
+msgstr "Không cho phép phiếu giảm giá áp dụng với sản phẩm ưu đãi. Phiếu giảm giá cho mặt hàng được áp dụng với sản phẩm không ưu đãi. Phiếu giảm giá cho giỏ hàng được áp dụng nếu trong giỏ hàng không có sản phẩm ưu đãi. "
+
+#: admin/admin.php:1570
+msgid "Exclude sale items"
+msgstr "Loại trừ sản phẩm ưu đãi"
+
+#: admin/admin.php:1566
+msgid "Check this box if the coupon cannot be used in conjunction with other coupons."
+msgstr "Bật nút này để phiếu giảm giá không được phép sử dụng cùng với các phiếu giảm giá khác. "
+
+#: admin/admin.php:1561
+msgid "Individual use only"
+msgstr "Chỉ dùng cho cá nhân"
+
+#: admin/admin.php:1556
+msgid "No maximum"
+msgstr "Không có giá trị lớn nhất"
+
+#: admin/admin.php:1557
+msgid "The maximum spend to use the coupon."
+msgstr "Giá trị tiêu dùng lớn nhất để dùng phiếu giảm giá. "
+
+#: admin/admin.php:1549
+msgid "Maximum spend"
+msgstr "Giá trị tiêu dùng tối đa"
+
+#: admin/admin.php:1542
+msgid "No minimum"
+msgstr "Không có giá trị nhỏ nhất"
+
+#: admin/admin.php:1543
+msgid "The minimum spend to use the coupon."
+msgstr "Giá trị tiêu dùng nhỏ nhất để dùng phiếu giảm giá. "
+
+#: admin/admin.php:1535
+msgid "Minimum spend"
+msgstr "Giá trị tiêu dùng nhỏ nhất"
+
+#: admin/admin.php:1530
+msgid "Coupon will expire after x(days) since it's generated and sent"
+msgstr "Phiếu giảm giá sẽ hết hạn sau x ngày từ khi được tạo và gửi đi"
+
+#: admin/admin.php:1522
+msgid "Time to live"
+msgstr "Thời hạn sử dụng"
+
+#: admin/admin.php:1516
+msgid " must be enabled in your shipping zone and be set to require \"a valid free shipping coupon\" (see the \"Free Shipping Requires\" setting)."
+msgstr "phải được bật trong khu vực giao hàng và được cài đặt để yêu cầu \"một phiếu giảm giá miễn phí vận chuyển hợp lệ\" (xem cài đặt trong \"Free Shipping requires\")"
+
+#: admin/admin.php:1516
+msgid "free shipping method"
+msgstr "phương pháp miễn phí giao hàng"
+
+#: admin/admin.php:1514
+msgid "Check this box if the coupon grants free shipping. A "
+msgstr "Bật nút này nếu cho phép phiếu giảm giá áp dụng với miễn phí vận chuyển. A"
+
+#: admin/admin.php:1509
+msgid "Allow free shipping"
+msgstr "Cho phép miễn phí vận chuyển"
+
+#: admin/admin.php:1494
+msgid "Frontend message if lost"
+msgstr "Thông báo khi không thắng"
+
+#: admin/admin.php:1472
+msgid "\"Checkout\" with link to checkout page"
+msgstr "\"Thanh toán\" với đường dẫn tới trang thanh toán"
+
+#: admin/admin.php:1470
+msgid "Label of coupon that customers win"
+msgstr "Nhãn phiếu giảm giá mà khách hàng thắng được"
+
+#: admin/admin.php:1458
+msgid "Frontend Message if win"
+msgstr "Thông báo trúng thưởng hiển thị"
+
+#: admin/admin.php:1391
+msgid "Expiry date of the coupon."
+msgstr "Ngày hết hạn của phiếu giảm giá"
+
+#: admin/admin.php:1385
+msgid "Customer's name."
+msgstr "Tên khách hàng"
+
+#: admin/admin.php:1374
+msgid "The content of email sending to customers to inform them the coupon code they receive"
+msgstr "Nội dung email thông báo mã giảm giá gửi tới khách hàng."
+
+#: admin/admin.php:1373
+msgid "Email content"
+msgstr "Nội dung Email"
+
+#: admin/admin.php:1366
+msgid "The heading of emails sending to customers which include discount coupon code."
+msgstr "Tiêu đề email thông báo mã giảm giá gửi tới khách hàng. "
+
+#: admin/admin.php:1361
+msgid "Email heading"
+msgstr "Tiêu đề email"
+
+#: admin/admin.php:1354
+msgid "The subject of emails sending to customers which include discount coupon code."
+msgstr "Chủ đề email bao gồm mã giảm giá được gửi tới khách hàng. "
+
+#: admin/admin.php:1349
+msgid "Email subject"
+msgstr "Chủ đề email"
+
+#: admin/admin.php:1332
+msgid "Automatically hide wheel after finishing spinning"
+msgstr "Tự động ẩn vòng quay sau khi quay"
+
+#: admin/admin.php:1309
+msgid "*The total Probability: "
+msgstr "* Tổng xác suất:"
+
+#: admin/admin.php:1305
+msgid "Slices positions are sortable by drag and drop."
+msgstr "Kéo thả sắp xếp vị trí các phần của vòng quay"
+
+#: admin/admin.php:1230
+msgid "Fixed cart discount"
+msgstr "Giảm giá giỏ hàng cố định"
+
+#: admin/admin.php:1229
+msgid "Fixed product discount"
+msgstr "Giảm giá sản phẩm cố định"
+
+#: admin/admin.php:1228
+msgid "Percentage discount"
+msgstr "Giảm giá theo phần trăm"
+
+#: admin/admin.php:1226
+msgid "Non"
+msgstr "Không có"
+
+#: admin/admin.php:787
+msgid "Background color"
+msgstr "Màu nền"
+
+#: admin/admin.php:1209
+msgid "Probability(%)"
+msgstr "Xác suất (%)"
+
+#: admin/admin.php:1206
+msgid "Coupon Type"
+msgstr "Loại Phiếu giảm giá"
+
+#: admin/admin.php:1129
+msgid "From 3s to 15s."
+msgstr "Từ 3 đến 15 giây"
+
+#: admin/admin.php:1116
+msgid "Wheel spinning duration"
+msgstr "Thời gian quay"
+
+#: admin/admin.php:1096
+msgid "Wheel border dot color"
+msgstr "Màu chấm tròn của viền"
+
+#: admin/admin.php:1087
+msgid "Wheel border color"
+msgstr "Màu viền"
+
+#: admin/admin.php:549 admin/admin.php:558 admin/admin.php:567
+#: admin/admin.php:806 admin/admin.php:996 admin/admin.php:1005
+#: admin/admin.php:1014 admin/admin.php:1065 admin/admin.php:1091
+#: admin/admin.php:1100 admin/admin.php:1110 admin/admin.php:1122
+#: admin/admin.php:1176 admin/admin.php:1185 admin/admin.php:1413
+#: admin/admin.php:1423 admin/admin.php:1434 admin/admin.php:1443
+#: admin/admin.php:1452 admin/admin.php:1488 admin/admin.php:1810
+#: admin/admin.php:1819 admin/admin.php:1828 admin/admin.php:1837
+#: admin/admin.php:1850 admin/admin.php:1859 admin/admin.php:1868
+msgid "Upgrade This Feature"
+msgstr "Nâng cấp để sử dụng tính năng"
+
+#: admin/admin.php:1072
+msgid "Wheel center color"
+msgstr "Màu vùng trung tâm"
+
+#: admin/admin.php:1046
+msgid "Wheel pointer color"
+msgstr "Màu Con trỏ"
+
+#: admin/admin.php:1031
+msgid "Center"
+msgstr "Giữa"
+
+#: admin/admin.php:1026
+msgid "Pointer position"
+msgstr "Vị trí Con trỏ"
+
+#: admin/admin.php:772 admin/admin.php:779
+msgid "Add Image"
+msgstr "Thêm Ảnh"
+
+#: admin/admin.php:767 admin/admin.php:1295
+msgid "Remove"
+msgstr "Loại bỏ"
+
+#: admin/admin.php:754
+msgid "Background image"
+msgstr "Ảnh nền"
+
+#: admin/admin.php:826
+msgid "Wheel description"
+msgstr "Mô tả vòng quay"
+
+#: admin/admin.php:714
+msgid "WP's conditional tags"
+msgstr "WP's conditional tags"
+
+#: admin/admin.php:704
+msgid "Conditional tags"
+msgstr "Conditional tags"
+
+#: admin/admin.php:649
+msgid "When finishing a spin, show popup again after"
+msgstr "Hiển thị vòng quay sau khi quay xong"
+
+#: admin/admin.php:608
+msgid "Initial time"
+msgstr "Thời gian khởi tạo"
+
+#: admin/admin.php:583
+msgid "Position of the popup on screen"
+msgstr "Vị trí popup trên màn hình"
+
+#: admin/admin.php:581
+msgid "Bottom Right"
+msgstr "Góc phải dưới"
+
+#: admin/admin.php:580
+msgid "Bottom Left"
+msgstr "Góc trái dưới"
+
+#: admin/admin.php:579
+msgid "Middle Right"
+msgstr "Giữa bên phải"
+
+#: admin/admin.php:578
+msgid "Middle Left"
+msgstr "Giữa bên trái"
+
+#: admin/admin.php:577
+msgid "Top Right"
+msgstr "Góc phải trên"
+
+#: admin/admin.php:576
+msgid "Top Left"
+msgstr "Góc trái trên"
+
+#: admin/admin.php:532 admin/admin.php:642 admin/admin.php:661
+#: admin/admin.php:1528
+msgid "Days"
+msgstr "Ngày"
+
+#: admin/admin.php:531 admin/admin.php:641 admin/admin.php:660
+msgid "Hours"
+msgstr "Giờ"
+
+#: admin/admin.php:530 admin/admin.php:640 admin/admin.php:659
+msgid "Minutes"
+msgstr "Phút"
+
+#: admin/admin.php:528 admin/admin.php:658
+msgid "Seconds"
+msgstr "Giây"
+
+#: admin/admin.php:518
+msgid "Delay between each spin of an email"
+msgstr "Khoảng trễ giữa mỗi lần quay của một email"
+
+#: admin/admin.php:476
+msgid "Enable mobile"
+msgstr "Kích hoạt với người dùng điện thoại"
+
+#: admin/admin.php:464 admin/admin.php:1756
+msgid "Enable"
+msgstr "Bật"
+
+#: admin/admin.php:453
+msgid "Inform Result"
+msgstr "Thông báo kết quả"
+
+#: admin/admin.php:451
+msgid "Wheel Settings"
+msgstr "Cài đặt Vòng quay"
+
+#: admin/admin.php:445
+msgid "Pop-up"
+msgstr "Pop-up"
+
+#: admin/admin.php:443
+msgid "General"
+msgstr "Tổng quan"
+
+#: admin/admin.php:2454
+msgid "Cancel"
+msgstr "Hủy"
+
+#: admin/admin.php:2452
+msgid "OK"
+msgstr "OK"
+
+#: admin/admin.php:2296
+msgid "Allow URL Open"
+msgstr "Cách mở URL"
+
+#: admin/admin.php:2284
+msgid "file_get_contents"
+msgstr "file_get_contents"
+
+#: admin/admin.php:2271
+msgid "Export Emails"
+msgstr "Xuất danh sách email"
+
+#: admin/admin.php:2264
+msgid "To"
+msgstr "Tới"
+
+#: admin/admin.php:2262
+msgid "From"
+msgstr "Từ"
+
+#: admin/admin.php:2252
+msgid "Coupon Given"
+msgstr "Phiếu giảm giá được đưa ra"
+
+#: admin/admin.php:2251
+msgid "Emails Subcribed"
+msgstr "Email được đăng ký"
+
+#: admin/admin.php:2250
+msgid "Total Spins"
+msgstr "Tống số lần quay"
+
+#: admin/admin.php:2245
+msgid "Lucky Wheel Report"
+msgstr "Lucky Wheel Report"
+
+#: admin/admin.php:58 admin/admin.php:2280
+msgid "System Status"
+msgstr "System Status"
+
+#: admin/admin.php:52
+msgid "Report"
+msgstr "Báo cáo"
+
+#: admin/admin.php:50
+msgid "Emails"
+msgstr "Emails"
+
+#: frontend/frontend.php:827 frontend/frontend.php:934
+msgid "Checkout"
+msgstr "Thanh toán"
+
+#: woo-lucky-wheel.php:151
+msgid "Coupons"
+msgstr "Phiếu giảm giá"
+
+#: woo-lucky-wheel.php:149
+msgid "Last spin"
+msgstr "Lần quay cuối cùng"
+
+#: woo-lucky-wheel.php:148
+msgid "Number of spins"
+msgstr "Số lần quay"
+
+#: woo-lucky-wheel.php:147
+msgid "Customer name"
+msgstr "Tên khách hàng"
+
+#: woo-lucky-wheel.php:125
+msgid "No Email found in Trash."
+msgstr "Không tìm thấy Email nào trong Thùng rác. "
+
+#: woo-lucky-wheel.php:124
+msgid "No Email found."
+msgstr "Không tìm thấy Email nào. "
+
+#: woo-lucky-wheel.php:123
+msgid "Parent Email:"
+msgstr "Email Cha"
+
+#: woo-lucky-wheel.php:122
+msgid "Search Email"
+msgstr "Tìm Email"
+
+#: woo-lucky-wheel.php:121
+msgid "Email Subscribe"
+msgstr "Email Đăng ký"
+
+#: woo-lucky-wheel.php:120
+msgid "View Email"
+msgstr "Xem"
+
+#: woo-lucky-wheel.php:119
+msgctxt "Add new on Admin bar"
+msgid "Emails"
+msgstr "Emails"
+
+#: woo-lucky-wheel.php:118
+msgctxt "Admin menu"
+msgid "Emails"
+msgstr "Emails"
+
+#: woo-lucky-wheel.php:101
+msgid "Settings"
+msgstr "Cài đặt"

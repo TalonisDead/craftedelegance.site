@@ -1,0 +1,354 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Buy Now Button for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-26 06:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: woo-buy-now-button"
+
+#: quick-buy-now-button-for-woocommerce.php:54
+msgid "<strong>Quick Buy Now Button for WooCommerce</strong> is an add-on of "
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:77
+#: includes/admin/class-woo_buy_now_button_settings.php:90
+msgid "After Add to Cart Button"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:140
+msgid "Auto Reset Cart"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:76
+#: includes/admin/class-woo_buy_now_button_settings.php:89
+msgid "Before Add to Cart Button"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:248
+msgid "Border Color"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:271
+msgid "Border Radius"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:257
+msgid "Border size"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:82
+msgid "Button Position on Shop"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:72
+msgid "Button Position on Single"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:27
+#: includes/admin/class-woo_buy_now_button_settings.php:219
+msgid "Button Styles"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:195
+#: includes/admin/class-woo_buy_now_button_settings.php:120
+msgid "Button Text"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:112
+#: includes/class-woo_buy_now_button_backend.php:130
+#: includes/admin/class-woo_buy_now_button_settings.php:14
+msgid "Buy Now Button"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:111
+msgid "Buy Now Button Settings"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:212
+msgid "Buy Now Button Styles"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:103
+msgid "Cart Page"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:206
+msgid "Cart page"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:207
+#: includes/admin/class-woo_buy_now_button_settings.php:102
+msgid "Checkout Page"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:220
+msgid "Choose button style."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:177
+msgid "Choose specific category(s)."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:163
+msgid "Choose specific product type(s)."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:191
+msgid "Choose specific product(s)."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:141
+msgid "Clear the cart when clicked Buy Now button."
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:208
+#: includes/admin/class-woo_buy_now_button_settings.php:104
+msgid "Custom Page"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:113
+msgid "Custom Redirect URL"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:224
+msgid "Custom Style"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:183
+#: includes/admin/class-woo_buy_now_button_settings.php:127
+msgid "Default Shop Quantity"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:223
+msgid "Default Style"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:161
+msgid "Disable Buy Now Button"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:158
+msgid "Disable Buy Now Button Based on Specific Product Types."
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:162
+msgid "Disable Buy Now Button for this product."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:171
+msgid "Disable on Categories"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:157
+msgid "Disable on Product Types"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:185
+msgid "Disable on Products"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:92
+#: includes/admin/class-woo_buy_now_button_settings.php:45
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:54
+msgid "Enable Button on"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:218
+msgid "Enter custom link only for custom redirect like Amazon product link."
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:196
+msgid "Enter Text to Show on Buy Now button for this product."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:285
+msgid "Font size"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:26
+msgid "General"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:93
+#: includes/admin/class-woo_buy_now_button_settings.php:46
+msgid "Get Help &amp; Support"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:778
+msgid "Get Pro Features"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:205
+msgid "Global"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:70
+msgid "Go Pro"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:168
+#: includes/admin/class-woo_buy_now_button_settings.php:148
+msgid "Hide Add To Cart"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:169
+msgid "Hide Add To Cart Button for this product."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:149
+msgid "Hide Add To Cart Button from Single Product and Shop Page."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/quick-buy-now-button-for-woocommerce/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpxpress.net"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Makes your customers' checkout process easier and faster and allows you to "
+"redirect customers directly to the checkout, cart or any external link for "
+"quick purchase."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:298
+msgid "Margin"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:306
+msgid "Padding"
+msgstr ""
+
+#. Name of the plugin
+msgid "Quick Buy Now Button for WooCommerce"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:154
+#: includes/admin/class-woo_buy_now_button_settings.php:43
+msgid "Quick Buy Now Button Settings"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:217
+msgid "Redirect Custom Link"
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:203
+#: includes/admin/class-woo_buy_now_button_settings.php:97
+msgid "Redirect Location"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:87
+msgid "Select position where button will show on shop and archive page."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:73
+msgid "Select position where button will show on single product page."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:98
+msgid "Select redirect location to after click buy now button."
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:210
+msgid "Select where to redirect for this product."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:240
+msgid "Set button background color."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:249
+msgid "Set button border color."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:272
+msgid "Set button border radius in px."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:258
+msgid "Set button border size in px."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:232
+msgid "Set button text color."
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:184
+msgid "Set Default Quantity for this product on shop / archive page."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:286
+msgid "Set font size in px."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:114
+msgid "Set global custom URL to redirect."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:299
+msgid "Set margin value in px."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:307
+msgid "Set padding value in px."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:128
+msgid ""
+"Set quantity number to be added to the cart when clicked on the Buy Now "
+"button from shop page."
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:62
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:63
+msgid "Shop / Archive Page."
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:55
+msgid "Single Product Page."
+msgstr ""
+
+#. Author of the plugin
+msgid "Tanvirul Haque"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:239
+msgid "Text Background Color"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:231
+msgid "Text Color"
+msgstr ""
+
+#: includes/admin/class-woo_buy_now_button_settings.php:44
+msgid ""
+"The following options control the \"Quick Buy Now Button for WooCommerce\" "
+"extension."
+msgstr ""
+
+#: includes/class-woo_buy_now_button_backend.php:156
+msgid "The following options control the Buy Now button for this product."
+msgstr ""
+
+#: quick-buy-now-button-for-woocommerce.php:42
+msgid "WooCommerce"
+msgstr ""

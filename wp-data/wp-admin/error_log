@@ -1,0 +1,1625 @@
+[01-Jul-2024 02:28:20 UTC] PHP Warning:  sprintf(): Too few arguments in /home/b6lwg4zkrcp9/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[01-Jul-2024 02:28:31 UTC] PHP Warning:  sprintf(): Too few arguments in /home/b6lwg4zkrcp9/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[01-Jul-2024 02:28:46 UTC] PHP Warning:  sprintf(): Too few arguments in /home/b6lwg4zkrcp9/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 162
+[01-Jul-2024 02:30:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/themes/flatsome/inc/admin/envato_setup/envato_setup.php on line 1745
+[16-Jul-2024 11:11:21 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT a.action_id FROM wp_actionscheduler_actions a WHERE 1=1 AND a.hook='wc_schedule_pending_batch_processes' AND a.status IN ('in-progress', 'pending') LIMIT 0, 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors, call_user_func, as_has_scheduled_action, ActionScheduler_Store->query_action, ActionScheduler_DBStore->query_actions
+[16-Jul-2024 11:11:21 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'wc_pending_batch_processes' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->Automattic\WooCommerce\Internal\BatchProcessing\{closure}, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->remove_or_retry_failed_processors, Automattic\WooCommerce\Internal\BatchProcessing\BatchProcessingController->get_enqueued_processors, get_option
+[16-Jul-2024 11:11:21 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_Lock->is_locked, ActionScheduler_OptionLock->get_expiration, ActionScheduler_OptionLock->get_existing_lock
+[16-Jul-2024 11:11:21 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set, ActionScheduler_OptionLock->get_existing_lock
+[16-Jul-2024 11:11:21 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `wp_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set
+[17-Jul-2024 16:21:58 UTC] WordPress database error Duplicate column name 'source' for query ALTER TABLE wp_smsalert_booking_reminder ADD source varchar(50) NOT NULL DEFAULT 'woocommerce-bookings',ADD msg_sent TINYINT NOT NULL DEFAULT 0 made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, SAUpgrade::smsalertUpgrade
+[18-Jul-2024 07:44:32 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-lucky-wheel-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[18-Jul-2024 07:44:32 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-lucky-wheel-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[18-Jul-2024 07:44:32 UTC] PHP Warning:  include(): Failed opening '/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-lucky-wheel-vi.l10n.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[18-Jul-2024 08:49:28 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/b6lwg4zkrcp9/public_html/wp-content/themes/flatsome/functions.php on line 45
+[23-Jul-2024 00:51:48 UTC] WordPress database error Connection was killed for query SELECT option_value FROM wp_options WHERE option_name = 'flatsome_wup_purchase_code' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/flatsome/functions.php'), require('/themes/flatsome/inc/init.php'), require('/themes/flatsome/inc/functions/function-setup.php'), flatsome_envato, Flatsome_Envato::get_instance, Flatsome_Envato->__construct, get_option
+[23-Jul-2024 02:46:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/track-orders-for-woocommerce/includes/class-track-orders-for-woocommerce.php on line 709
+[23-Jul-2024 02:53:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/track-orders-for-woocommerce/includes/class-track-orders-for-woocommerce.php on line 709
+[23-Jul-2024 02:55:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/track-orders-for-woocommerce/includes/class-track-orders-for-woocommerce.php on line 709
+[23-Jul-2024 03:06:06 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-free-shipping-bar-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[23-Jul-2024 03:06:06 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-free-shipping-bar-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[23-Jul-2024 03:06:06 UTC] PHP Warning:  include(): Failed opening '/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-free-shipping-bar-vi.l10n.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[23-Jul-2024 03:06:28 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-orders-tracking-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[23-Jul-2024 03:06:28 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-orders-tracking-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[23-Jul-2024 03:06:28 UTC] PHP Warning:  include(): Failed opening '/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-orders-tracking-vi.l10n.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[23-Jul-2024 03:11:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/track-orders-for-woocommerce/includes/class-track-orders-for-woocommerce.php on line 709
+[23-Jul-2024 03:26:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/track-orders-for-woocommerce/includes/class-track-orders-for-woocommerce.php on line 709
+[24-Jul-2024 05:08:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/track-orders-for-woocommerce/includes/class-track-orders-for-woocommerce.php on line 709
+[24-Jul-2024 05:11:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/track-orders-for-woocommerce/includes/class-track-orders-for-woocommerce.php on line 709
+[24-Jul-2024 05:39:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/track-orders-for-woocommerce/includes/class-track-orders-for-woocommerce.php on line 709
+[24-Jul-2024 06:24:33 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/insert-headers-and-footers-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[24-Jul-2024 06:24:33 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/insert-headers-and-footers-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[24-Jul-2024 06:24:33 UTC] PHP Warning:  include(): Failed opening '/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/insert-headers-and-footers-vi.l10n.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[24-Jul-2024 07:54:13 UTC] PHP Fatal error:  Cannot redeclare storefront_myaccount_customer_avatar() (previously declared in /home/b6lwg4zkrcp9/public_html/wp-content/themes/flatsome/functions.php:77) in /home/b6lwg4zkrcp9/public_html/wp-content/themes/flatsome/functions.php on line 118
+[24-Jul-2024 08:53:41 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 08:53:41 UTC] latest version code is 112
+[24-Jul-2024 08:53:52 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 08:53:52 UTC] latest version code is 112
+[24-Jul-2024 09:02:31 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 09:02:31 UTC] latest version code is 112
+[24-Jul-2024 09:02:49 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 09:02:49 UTC] latest version code is 112
+[24-Jul-2024 09:03:09 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 09:03:09 UTC] latest version code is 112
+[24-Jul-2024 10:21:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/track-orders-for-woocommerce/includes/class-track-orders-for-woocommerce.php on line 709
+[24-Jul-2024 10:24:30 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 10:24:30 UTC] latest version code is 112
+[24-Jul-2024 10:24:42 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 10:24:42 UTC] latest version code is 112
+[24-Jul-2024 10:25:04 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 10:25:04 UTC] latest version code is 112
+[24-Jul-2024 10:44:50 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 10:44:50 UTC] latest version code is 112
+[24-Jul-2024 11:04:07 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 11:04:07 UTC] latest version code is 112
+[24-Jul-2024 11:07:53 UTC] Download not permitted or not having downloadable items
+[24-Jul-2024 11:07:56 UTC] PHP Fatal error:  Uncaught Error: Object of class Closure could not be converted to string in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/shortcodes-finder/admin/partials/shortcodes-finder-admin-display.php:973
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/shortcodes-finder/admin/partials/shortcodes-finder-admin-display.php(920): sf_get_shortcode_callback_definition(Array)
+#1 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/shortcodes-finder/admin/partials/shortcodes-finder-admin-display.php(80): sf_admin_page_shortcodes_documentation_handler()
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): sf_admin_page_handler('')
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home/b6lwg4zkrcp9/public_html/wp-admin/admin.php(259): do_action('tools_page_shor...')
+#6 /home/b6lwg4zkrcp9/public_html/wp-admin/tools.php(40): require_once('/home/b6lwg4 in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/shortcodes-finder/admin/partials/shortcodes-finder-admin-display.php on line 973
+[24-Jul-2024 13:18:31 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 13:18:31 UTC] latest version code is 112
+[24-Jul-2024 13:47:07 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 13:47:07 UTC] latest version code is 112
+[24-Jul-2024 16:59:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 16:59:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 16:59:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:01:12 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 17:01:12 UTC] latest version code is 112
+[24-Jul-2024 17:05:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:06:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:12:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation(NULL)
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:13:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation(NULL)
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:13:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation(NULL)
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:15:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation(NULL)
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:15:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation(NULL)
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:22:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:24:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:24:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:35:41 UTC] PHP Fatal error:  Cannot redeclare my_order_id() (previously declared in /home/b6lwg4zkrcp9/public_html/wp-content/themes/flatsome/functions.php:75) in /home/b6lwg4zkrcp9/public_html/wp-content/themes/flatsome/functions.php on line 96
+[24-Jul-2024 17:35:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:36:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[24-Jul-2024 17:46:33 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 17:46:33 UTC] latest version code is 112
+[24-Jul-2024 17:48:20 UTC] The WC_Order_Item_Meta::__construct function is deprecated since version 3.1. Replace with WC_Order_Item_Product.
+[24-Jul-2024 17:48:20 UTC] is_internal_meta_key was called incorrectly. Generic add/update/get meta methods should not be used for internal meta data, including "_billing_phone". Use getters and setters. Backtrace: do_action('wp_ajax_wc_cancel_request'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Cancel_Order->wc_cancel_request, WC_Order->update_status, WC_Order->save, WC_Order->status_transition, do_action('woocommerce_order_status_changed'), WP_Hook->do_action, WP_Hook->apply_filters, Track_Orders_For_Woocommerce_Common->wps_tofw_track_order_status, WC_Data->get_meta, WC_Data->is_internal_meta_key, wc_doing_it_wrong. This message was added in version 3.2.0.
+[24-Jul-2024 17:51:44 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 17:51:44 UTC] latest version code is 112
+[24-Jul-2024 17:52:08 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 17:52:08 UTC] latest version code is 112
+[24-Jul-2024 17:52:21 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 17:52:21 UTC] latest version code is 112
+[24-Jul-2024 17:54:11 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 17:54:11 UTC] latest version code is 112
+[24-Jul-2024 17:54:25 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 17:54:25 UTC] latest version code is 112
+[24-Jul-2024 17:54:35 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 17:54:35 UTC] latest version code is 112
+[24-Jul-2024 17:56:09 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 17:56:09 UTC] latest version code is 112
+[24-Jul-2024 18:07:14 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 18:07:14 UTC] latest version code is 112
+[24-Jul-2024 18:24:59 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[24-Jul-2024 18:24:59 UTC] latest version code is 112
+[25-Jul-2024 00:34:36 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 00:34:36 UTC] latest version code is 112
+[25-Jul-2024 00:54:21 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 00:54:21 UTC] latest version code is 112
+[25-Jul-2024 01:20:21 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 01:20:21 UTC] latest version code is 112
+[25-Jul-2024 01:28:10 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 01:28:10 UTC] latest version code is 112
+[25-Jul-2024 01:29:25 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 01:29:25 UTC] latest version code is 112
+[25-Jul-2024 01:43:58 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 01:43:58 UTC] latest version code is 112
+[25-Jul-2024 01:49:52 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 01:49:52 UTC] latest version code is 112
+[25-Jul-2024 01:50:09 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 01:50:09 UTC] latest version code is 112
+[25-Jul-2024 02:02:48 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 02:02:48 UTC] latest version code is 112
+[25-Jul-2024 02:21:30 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 02:21:30 UTC] latest version code is 112
+[25-Jul-2024 02:27:26 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 02:27:26 UTC] latest version code is 112
+[25-Jul-2024 02:48:35 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT umeta_id FROM wp_usermeta WHERE meta_key = 'wp_yoast_notifications' AND user_id = 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast_Notification_Center->update_storage, Yoast_Notification_Center->remove_storage, delete_user_option, delete_user_meta, delete_metadata
+[25-Jul-2024 02:51:22 UTC] WordPress database error Connection was killed for query SELECT COUNT(DISTINCT claim_id) FROM wp_actionscheduler_actions WHERE claim_id != 0 AND status IN ( 'pending', 'in-progress') made by do_action('wp_ajax_as_async_request_queue_runner'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Async_Request->maybe_handle, ActionScheduler_AsyncRequest_QueueRunner->handle, ActionScheduler_AsyncRequest_QueueRunner->maybe_dispatch, ActionScheduler_AsyncRequest_QueueRunner->allow, ActionScheduler_Abstract_QueueRunner->has_maximum_concurrent_batches, ActionScheduler_DBStore->get_claim_count
+[25-Jul-2024 02:54:25 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 02:54:25 UTC] latest version code is 112
+[25-Jul-2024 04:16:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('<?php $order->g...')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[25-Jul-2024 04:22:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('[bctk_order_num...')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[25-Jul-2024 04:22:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('[bctk_order_num...')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[25-Jul-2024 15:42:05 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 15:42:05 UTC] latest version code is 112
+[25-Jul-2024 15:42:09 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 15:42:09 UTC] latest version code is 112
+[25-Jul-2024 15:58:39 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 15:58:39 UTC] latest version code is 112
+[25-Jul-2024 16:00:40 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 16:00:40 UTC] latest version code is 112
+[25-Jul-2024 16:10:54 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[25-Jul-2024 16:10:54 UTC] latest version code is 112
+[26-Jul-2024 04:08:18 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[26-Jul-2024 04:08:18 UTC] latest version code is 112
+[26-Jul-2024 04:12:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_user() on bool in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php:210
+Stack trace:
+#0 /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php(160): pisol_corw_cancel_request::userCanRequestCancellation('<?php echo $ord...')
+#1 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(324): pisol_corw_cancel_request->cancellationRequest('')
+#2 /home/b6lwg4zkrcp9/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /home/b6lwg4zkrcp9/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/b6lwg4zkrcp9/public_html/wp-admin/admin-post.php(85): do_action('admin_post_pi_c...')
+#5 {main}
+  thrown in /home/b6lwg4zkrcp9/public_html/wp-content/plugins/cancel-order-request-woocommerce/public/cancel-request.php on line 210
+[26-Jul-2024 04:43:55 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_Lock->is_locked, ActionScheduler_OptionLock->get_expiration, ActionScheduler_OptionLock->get_existing_lock
+[26-Jul-2024 04:43:55 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT option_value FROM wp_options WHERE option_name = 'action_scheduler_lock_async-request-runner' made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set, ActionScheduler_OptionLock->get_existing_lock
+[26-Jul-2024 04:43:55 UTC] WordPress database error Commands out of sync; you can't run this command now for query SHOW FULL COLUMNS FROM `wp_options` made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_QueueRunner->maybe_dispatch_async_request, ActionScheduler_OptionLock->set
+[26-Jul-2024 15:54:00 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[26-Jul-2024 15:54:00 UTC] latest version code is 112
+[26-Jul-2024 16:00:24 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[26-Jul-2024 16:00:24 UTC] latest version code is 112
+[26-Jul-2024 16:45:26 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[26-Jul-2024 16:45:26 UTC] latest version code is 112
+[27-Jul-2024 00:24:00 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[27-Jul-2024 00:24:00 UTC] latest version code is 112
+[27-Jul-2024 01:31:35 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[27-Jul-2024 01:31:35 UTC] latest version code is 112
+[27-Jul-2024 01:43:06 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[27-Jul-2024 01:43:06 UTC] latest version code is 112
+[27-Jul-2024 02:24:44 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[27-Jul-2024 02:24:44 UTC] latest version code is 112
+[27-Jul-2024 02:41:43 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[27-Jul-2024 02:41:43 UTC] latest version code is 112
+[27-Jul-2024 03:30:04 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[27-Jul-2024 03:30:04 UTC] latest version code is 112
+[27-Jul-2024 04:03:18 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[27-Jul-2024 04:03:18 UTC] latest version code is 112
+[27-Jul-2024 04:05:46 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[27-Jul-2024 04:05:46 UTC] latest version code is 112
+[27-Jul-2024 04:05:55 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[27-Jul-2024 04:05:55 UTC] latest version code is 112
+[28-Jul-2024 10:13:08 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[28-Jul-2024 10:13:08 UTC] latest version code is 112
+[29-Jul-2024 15:13:08 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:13:08 UTC] latest version code is 112
+[29-Jul-2024 15:15:30 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:15:30 UTC] latest version code is 112
+[29-Jul-2024 15:16:41 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:16:41 UTC] latest version code is 112
+[29-Jul-2024 15:19:08 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:19:08 UTC] latest version code is 112
+[29-Jul-2024 15:19:22 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:19:22 UTC] latest version code is 112
+[29-Jul-2024 15:19:25 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:19:25 UTC] latest version code is 112
+[29-Jul-2024 15:19:35 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:19:35 UTC] latest version code is 112
+[29-Jul-2024 15:23:39 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:23:39 UTC] latest version code is 112
+[29-Jul-2024 15:23:49 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:23:49 UTC] latest version code is 112
+[29-Jul-2024 15:34:56 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:34:56 UTC] latest version code is 112
+[29-Jul-2024 15:35:54 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:35:54 UTC] latest version code is 112
+[29-Jul-2024 15:49:33 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:49:33 UTC] latest version code is 112
+[29-Jul-2024 15:53:11 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:53:11 UTC] latest version code is 112
+[29-Jul-2024 15:53:22 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:53:22 UTC] latest version code is 112
+[29-Jul-2024 15:53:41 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM wp_users WHERE user_login = 'admin' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast_Notification_Center->update_storage, Yoast_Notification_Center->remove_storage, Yoast_Notification_Center->has_stored_notifications, Yoast_Notification_Center->get_stored_notifications, get_current_user_id, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[29-Jul-2024 15:53:41 UTC] WordPress database error Commands out of sync; you can't run this command now for query SELECT * FROM wp_users WHERE user_login = 'admin' LIMIT 1 made by shutdown_action_hook, do_action('shutdown'), WP_Hook->do_action, WP_Hook->apply_filters, Yoast_Notification_Center->update_storage, Yoast_Notification_Center->remove_storage, Yoast_Notification_Center->has_stored_notifications, Yoast_Notification_Center->get_stored_notifications, get_current_user_id, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_logged_in_cookie, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[29-Jul-2024 15:53:44 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:53:44 UTC] latest version code is 112
+[29-Jul-2024 15:56:50 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:56:50 UTC] latest version code is 112
+[29-Jul-2024 15:57:54 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[29-Jul-2024 15:57:54 UTC] latest version code is 112
+[30-Jul-2024 01:20:04 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[30-Jul-2024 01:20:04 UTC] latest version code is 112
+[30-Jul-2024 03:02:18 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[30-Jul-2024 03:02:18 UTC] latest version code is 112
+[30-Jul-2024 03:02:22 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[30-Jul-2024 03:02:22 UTC] latest version code is 112
+[30-Jul-2024 03:21:51 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[30-Jul-2024 03:21:51 UTC] latest version code is 112
+[30-Jul-2024 03:21:51 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[30-Jul-2024 03:21:51 UTC] latest version code is 112
+[30-Jul-2024 03:21:52 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[30-Jul-2024 03:21:52 UTC] latest version code is 112
+[31-Jul-2024 15:14:42 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 15:14:42 UTC] latest version code is 112
+[31-Jul-2024 15:43:22 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 15:43:22 UTC] latest version code is 112
+[31-Jul-2024 15:52:49 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 15:52:49 UTC] latest version code is 112
+[31-Jul-2024 15:55:47 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 15:55:47 UTC] latest version code is 112
+[31-Jul-2024 18:27:15 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 18:27:15 UTC] latest version code is 112
+[31-Jul-2024 18:58:19 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 18:58:19 UTC] latest version code is 112
+[31-Jul-2024 18:59:43 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 18:59:43 UTC] latest version code is 112
+[31-Jul-2024 19:00:00 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 19:00:00 UTC] latest version code is 112
+[31-Jul-2024 19:07:02 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 19:07:02 UTC] latest version code is 112
+[31-Jul-2024 19:07:19 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 19:07:19 UTC] latest version code is 112
+[31-Jul-2024 19:07:37 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 19:07:37 UTC] latest version code is 112
+[31-Jul-2024 19:15:43 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 19:15:43 UTC] latest version code is 112
+[31-Jul-2024 19:18:54 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 19:18:54 UTC] latest version code is 112
+[31-Jul-2024 19:20:17 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 19:20:17 UTC] latest version code is 112
+[31-Jul-2024 19:20:23 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[31-Jul-2024 19:20:23 UTC] latest version code is 112
+[01-Aug-2024 00:38:48 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[01-Aug-2024 00:38:48 UTC] latest version code is 112
+[01-Aug-2024 02:19:54 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[01-Aug-2024 02:19:54 UTC] latest version code is 112
+[01-Aug-2024 03:18:59 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[01-Aug-2024 03:18:59 UTC] latest version code is 112
+[01-Aug-2024 03:29:56 UTC] WordPress database error Connection was killed for query SELECT option_value FROM wp_options WHERE option_name = 'woocommerce_myaccount_page_id' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Query->add_endpoints, WC_Query->get_endpoints_mask, get_option
+[01-Aug-2024 03:30:04 UTC] WordPress database error Connection was killed for query SELECT option_value FROM wp_options WHERE option_name = 'uag_enable_coming_soon_mode' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UAGB_Loader->init_actions, UAGB_Update::migrate_visibility_mode, UAGB_Admin_Helper::get_admin_settings_option, get_option
+[01-Aug-2024 03:30:06 UTC] WordPress database error Connection was killed for query SELECT option_value FROM wp_options WHERE option_name = 'uag_enable_coming_soon_mode' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, UAGB_Loader->init_actions, UAGB_Update::migrate_visibility_mode, UAGB_Admin_Helper::get_admin_settings_option, get_option
+[01-Aug-2024 03:40:05 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[01-Aug-2024 03:40:05 UTC] latest version code is 112
+[01-Aug-2024 19:07:45 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[01-Aug-2024 19:07:45 UTC] latest version code is 112
+[02-Aug-2024 14:56:55 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[02-Aug-2024 14:56:55 UTC] latest version code is 112
+[02-Aug-2024 14:56:59 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[02-Aug-2024 14:56:59 UTC] latest version code is 112
+[02-Aug-2024 16:16:40 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[02-Aug-2024 16:16:40 UTC] latest version code is 112
+[02-Aug-2024 19:32:19 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[02-Aug-2024 19:32:19 UTC] latest version code is 112
+[03-Aug-2024 02:35:48 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 02:35:48 UTC] latest version code is 112
+[03-Aug-2024 02:38:41 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 02:38:41 UTC] latest version code is 112
+[03-Aug-2024 02:39:29 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 02:39:29 UTC] latest version code is 112
+[03-Aug-2024 02:39:48 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 02:39:48 UTC] latest version code is 112
+[03-Aug-2024 02:40:01 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 02:40:01 UTC] latest version code is 112
+[03-Aug-2024 02:44:47 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 02:44:47 UTC] latest version code is 112
+[03-Aug-2024 02:44:56 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 02:44:56 UTC] latest version code is 112
+[03-Aug-2024 03:01:11 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 03:01:11 UTC] latest version code is 112
+[03-Aug-2024 03:28:19 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 03:28:19 UTC] latest version code is 112
+[03-Aug-2024 03:28:27 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[03-Aug-2024 03:28:27 UTC] latest version code is 112
+[06-Aug-2024 02:29:19 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[06-Aug-2024 02:29:19 UTC] latest version code is 112
+[06-Aug-2024 02:29:26 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[06-Aug-2024 02:29:26 UTC] latest version code is 112
+[06-Aug-2024 02:33:18 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[06-Aug-2024 02:33:18 UTC] latest version code is 112
+[06-Aug-2024 02:34:27 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[06-Aug-2024 02:34:27 UTC] latest version code is 112
+[07-Aug-2024 15:02:02 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[07-Aug-2024 15:02:02 UTC] latest version code is 112
+[07-Aug-2024 15:02:30 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[07-Aug-2024 15:02:30 UTC] latest version code is 112
+[07-Aug-2024 15:05:59 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[07-Aug-2024 15:05:59 UTC] latest version code is 112
+[07-Aug-2024 15:39:27 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[07-Aug-2024 15:39:27 UTC] latest version code is 112
+[09-Aug-2024 15:40:40 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[09-Aug-2024 15:40:40 UTC] latest version code is 112
+[09-Aug-2024 16:07:07 UTC] WordPress database error Connection was killed for query SELECT option_name, option_value FROM wp_options WHERE option_name IN ('_site_transient_wp_theme_files_patterns-139feecae12a60474ca935c103b69316','_site_transient_timeout_wp_theme_files_patterns-139feecae12a60474ca935c103b69316') made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, _register_theme_block_patterns, WP_Theme->get_block_patterns, WP_Theme->get_pattern_cache, get_site_transient, wp_prime_site_option_caches, wp_prime_network_option_caches, wp_prime_option_caches
+[09-Aug-2024 17:53:15 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[09-Aug-2024 17:53:15 UTC] latest version code is 112
+[10-Aug-2024 01:29:33 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 01:29:33 UTC] latest version code is 112
+[10-Aug-2024 01:41:31 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 01:41:31 UTC] latest version code is 112
+[10-Aug-2024 01:43:18 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 01:43:18 UTC] latest version code is 112
+[10-Aug-2024 01:45:11 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 01:45:11 UTC] latest version code is 112
+[10-Aug-2024 01:45:16 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 01:45:16 UTC] latest version code is 112
+[10-Aug-2024 01:53:24 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 01:53:24 UTC] latest version code is 112
+[10-Aug-2024 02:13:14 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 02:13:14 UTC] latest version code is 112
+[10-Aug-2024 02:13:29 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 02:13:29 UTC] latest version code is 112
+[10-Aug-2024 02:14:17 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 02:14:17 UTC] latest version code is 112
+[10-Aug-2024 02:18:21 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 02:18:21 UTC] latest version code is 112
+[10-Aug-2024 03:53:27 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 03:53:27 UTC] latest version code is 112
+[10-Aug-2024 03:54:29 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[10-Aug-2024 03:54:29 UTC] latest version code is 112
+[12-Aug-2024 07:55:41 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[12-Aug-2024 07:55:41 UTC] latest version code is 112
+[12-Aug-2024 07:57:04 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[12-Aug-2024 07:57:04 UTC] latest version code is 112
+[12-Aug-2024 07:57:16 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/wordfence-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[12-Aug-2024 07:57:16 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/wordfence-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[12-Aug-2024 07:57:16 UTC] PHP Warning:  include(): Failed opening '/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/wordfence-vi.l10n.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[12-Aug-2024 07:57:29 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-thank-you-page-customizer-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[12-Aug-2024 07:57:29 UTC] PHP Warning:  include(/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-thank-you-page-customizer-vi.l10n.php): failed to open stream: No such file or directory in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[12-Aug-2024 07:57:29 UTC] PHP Warning:  include(): Failed opening '/home/b6lwg4zkrcp9/public_html/wp-content/languages/plugins/woo-thank-you-page-customizer-vi.l10n.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/b6lwg4zkrcp9/public_html/wp-includes/l10n.php on line 1601
+[12-Aug-2024 08:00:21 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[12-Aug-2024 08:00:21 UTC] latest version code is 112
+[12-Aug-2024 08:08:40 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[12-Aug-2024 08:08:40 UTC] latest version code is 112
+[12-Aug-2024 08:11:40 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[12-Aug-2024 08:11:40 UTC] latest version code is 112
+[16-Aug-2024 17:47:03 UTC] body is stdClass Object
+(
+    [id] => 31721589908010868815313431588
+    [description] => Fix null
+    [version] => 2.4.35
+    [versionNumber] => 112
+    [createdDate] => 2024-06-29T03:14:08.382
+)
+
+[16-Aug-2024 17:47:03 UTC] latest version code is 112

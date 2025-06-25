@@ -1,0 +1,7 @@
+# Loại bỏ cache, upload, file tạm
+wp-data/wp-content/cache/
+wp-data/wp-content/uploads/
+*.log
+*.zip
+*.gz
+db-data/

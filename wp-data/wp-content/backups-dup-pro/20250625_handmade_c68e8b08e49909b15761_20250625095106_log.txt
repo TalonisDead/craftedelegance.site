@@ -1,0 +1,356 @@
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2025-06-25 09:52:24
+NOTICE: Do NOT post to public sites or forums 
+PACKAGE CREATION START
+********************************************************************************
+********************************************************************************
+VERSION:	4.5.21.5
+WORDPRESS:	6.8.1
+PHP INFO:	7.4.33 | SAPI: apache2handler
+SERVER:		Apache/2.4.54 (Debian) 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 384M (384M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	2MB
+ARCHIVE ENGINE: ZipArchive: multi-thread
+PACKAGE COMPONENTS:
+	Database,
+	Core,
+	Plugins,
+	Themes,
+	Media,
+	Other
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (query size limit - 131072 )
+
+TABLES: total: 123 | filtered:0 | create:123
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_users NUM ROWS: 13
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_users NUM ROWS: 13
+INSERT ROWS TABLE[INDEX:1] wp_usermeta NUM ROWS: 564
+INSERT ROWS TABLE[INDEX:2] wp_actionscheduler_actions NUM ROWS: 3332
+INSERT ROWS TABLE[INDEX:3] wp_actionscheduler_claims NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:4] wp_actionscheduler_groups NUM ROWS: 10
+INSERT ROWS TABLE[INDEX:5] wp_actionscheduler_logs NUM ROWS: 9990
+INSERT ROWS TABLE[INDEX:6] wp_bwf_contact NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:7] wp_bwf_contact_meta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:8] wp_bwf_conversion_tracking NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:9] wp_bwf_funnelmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:10] wp_bwf_funnels NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:11] wp_bwf_optin_entries NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:12] wp_bwf_wc_customers NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:13] wp_commentmeta NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:14] wp_comments NUM ROWS: 161
+INSERT ROWS TABLE[INDEX:15] wp_duplicator_backups NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:16] wp_duplicator_entities NUM ROWS: 9
+INSERT ROWS TABLE[INDEX:17] wp_glsr_assigned_posts NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:18] wp_glsr_assigned_terms NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:19] wp_glsr_assigned_users NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:20] wp_glsr_ratings NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:21] wp_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:22] wp_mailchimp_carts NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:23] wp_mailchimp_jobs NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:24] wp_mo_openid_linked_user NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:25] wp_options NUM ROWS: 2007
+INSERT ROWS TABLE[INDEX:26] wp_postmeta NUM ROWS: 3998
+INSERT ROWS TABLE[INDEX:27] wp_posts NUM ROWS: 1248
+INSERT ROWS TABLE[INDEX:28] wp_sa_captured_wc_fields NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:29] wp_smsalert_booking_reminder NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:30] wp_smsalert_renewal_reminders NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:31] wp_sms_otp NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:32] wp_sms_otp_attempts NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:33] wp_sms_send NUM ROWS: 4
+INSERT ROWS TABLE[INDEX:34] wp_sms_subscribes NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:35] wp_sms_subscribes_group NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:36] wp_snippets NUM ROWS: 4
+INSERT ROWS TABLE[INDEX:37] wp_social_users NUM ROWS: 12
+INSERT ROWS TABLE[INDEX:38] wp_sos_dqc_logs NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:39] wp_sos_dqc_otkeys NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:40] wp_sos_dqc_qrcodes NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:41] wp_termmeta NUM ROWS: 83
+INSERT ROWS TABLE[INDEX:42] wp_terms NUM ROWS: 111
+INSERT ROWS TABLE[INDEX:43] wp_term_relationships NUM ROWS: 239
+INSERT ROWS TABLE[INDEX:44] wp_term_taxonomy NUM ROWS: 111
+INSERT ROWS TABLE[INDEX:45] wp_trackship_shipment NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:46] wp_trackship_shipment_meta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:47] wp_trackship_shipping_provider NUM ROWS: 801
+INSERT ROWS TABLE[INDEX:48] wp_vi_woo_orders_tracking_track_info NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:49] wp_wc_admin_notes NUM ROWS: 84
+INSERT ROWS TABLE[INDEX:50] wp_wc_admin_note_actions NUM ROWS: 114
+INSERT ROWS TABLE[INDEX:51] wp_wc_cancel_orders NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:52] wp_wc_category_lookup NUM ROWS: 7
+INSERT ROWS TABLE[INDEX:53] wp_wc_customer_lookup NUM ROWS: 19
+INSERT ROWS TABLE[INDEX:54] wp_wc_download_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:55] wp_wc_orders NUM ROWS: 79
+INSERT ROWS TABLE[INDEX:56] wp_wc_orders_meta NUM ROWS: 1225
+INSERT ROWS TABLE[INDEX:57] wp_wc_order_addresses NUM ROWS: 154
+INSERT ROWS TABLE[INDEX:58] wp_wc_order_coupon_lookup NUM ROWS: 9
+INSERT ROWS TABLE[INDEX:59] wp_wc_order_operational_data NUM ROWS: 79
+INSERT ROWS TABLE[INDEX:60] wp_wc_order_product_lookup NUM ROWS: 124
+INSERT ROWS TABLE[INDEX:61] wp_wc_order_stats NUM ROWS: 79
+INSERT ROWS TABLE[INDEX:62] wp_wc_order_tax_lookup NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:63] wp_wc_product_attributes_lookup NUM ROWS: 52
+INSERT ROWS TABLE[INDEX:64] wp_wc_product_download_directories NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:65] wp_wc_product_meta_lookup NUM ROWS: 95
+INSERT ROWS TABLE[INDEX:66] wp_wc_rate_limits NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:67] wp_wc_reserved_stock NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:68] wp_wc_tax_rate_classes NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:69] wp_wc_webhooks NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:70] wp_wfacp_stats NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:71] wp_wfblockediplog NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:72] wp_wfblocks7 NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:73] wp_wfconfig NUM ROWS: 232
+INSERT ROWS TABLE[INDEX:74] wp_wfco_report_views NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:75] wp_wfcrawlers NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:76] wp_wffilechanges NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:77] wp_wffilemods NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:78] wp_wfhits NUM ROWS: 15
+INSERT ROWS TABLE[INDEX:79] wp_wfhoover NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:80] wp_wfissues NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:81] wp_wfknownfilelist NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:82] wp_wflivetraffichuman NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:83] wp_wflocs NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:84] wp_wflogins NUM ROWS: 15
+INSERT ROWS TABLE[INDEX:85] wp_wfls_2fa_secrets NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:86] wp_wfls_role_counts NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:87] wp_wfls_settings NUM ROWS: 27
+INSERT ROWS TABLE[INDEX:88] wp_wfnotifications NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:89] wp_wfpendingissues NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:90] wp_wfreversecache NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:91] wp_wfsecurityevents NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:92] wp_wfsnipcache NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:93] wp_wfstatus NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:94] wp_wftrafficrates NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:95] wp_wfwaffailures NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:96] wp_woocommerce_api_keys NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:97] wp_woocommerce_attribute_taxonomies NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:98] wp_woocommerce_downloadable_product_permissions NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:99] wp_woocommerce_log NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:100] wp_woocommerce_order_itemmeta NUM ROWS: 1641
+INSERT ROWS TABLE[INDEX:101] wp_woocommerce_order_items NUM ROWS: 214
+INSERT ROWS TABLE[INDEX:102] wp_woocommerce_payment_tokenmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:103] wp_woocommerce_payment_tokens NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:104] wp_woocommerce_sessions NUM ROWS: 310
+INSERT ROWS TABLE[INDEX:105] wp_woocommerce_shipping_zones NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:106] wp_woocommerce_shipping_zone_locations NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:107] wp_woocommerce_shipping_zone_methods NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:108] wp_woocommerce_tax_rates NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:109] wp_woocommerce_tax_rate_locations NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:110] wp_woo_shippment_provider NUM ROWS: 868
+INSERT ROWS TABLE[INDEX:111] wp_wotv_woo_track_info NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:112] wp_wpmailsmtp_debug_events NUM ROWS: 12
+INSERT ROWS TABLE[INDEX:113] wp_wpmailsmtp_tasks_meta NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:114] wp_yith_wcwl NUM ROWS: 16
+INSERT ROWS TABLE[INDEX:115] wp_yith_wcwl_itemmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:116] wp_yith_wcwl_lists NUM ROWS: 3
+INSERT ROWS TABLE[INDEX:117] wp_yoast_indexable NUM ROWS: 140
+INSERT ROWS TABLE[INDEX:118] wp_yoast_indexable_hierarchy NUM ROWS: 138
+INSERT ROWS TABLE[INDEX:119] wp_yoast_migrations NUM ROWS: 24
+INSERT ROWS TABLE[INDEX:120] wp_yoast_primary_term NUM ROWS: 43
+INSERT ROWS TABLE[INDEX:121] wp_yoast_seo_links NUM ROWS: 339
+INSERT ROWS TABLE[INDEX:122] wp_zorem_email_sms_log NUM ROWS: 0
+SQL FILE SIZE CHECK OK, SIZE: 16306900
+SQL CREATED: 20250625_handmade_c68e8b08e49909b15761_20250625095106_database.sql
+SQL FILE SIZE: 15.55MB
+SQL FILE TIME: 2025-06-25 09:52:29
+SQL RUNTIME: 4.973 sec.
+MEMORY STACK: 2MB
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: 20250625_handmade_c68e8b08e49909b15761_20250625095106_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	784.76MB
+STATS:	Dirs 3,937 | Files 27,935 | Total 31,872
+COMPRESSED SIZE: 562.04MB
+ARCHIVE RUNTIME: 1750845383.098 sec.
+MEMORY STACK: 4MB
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+DEFAULT LOCAL: Default, /var/www/html/wp-content/backups-dup-pro
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 15.55MB
+INSTALLER FILE: 128.16KB
+ARCHIVE FILE: 566.23MB 
+EXPECTED FILE/DIRECTORY COUNT: 31,872
+ACTUAL FILE/DIRECTORY COUNT: 31,871
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 250.290 sec.
+PEAK PHP MEMORY USED: 2MB
+DONE PROCESSING => 20250625_handmade 2025-06-25 09:56:35
+
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+** DEFAULT LOCAL [Name: Default] [ID: 3] **
+SUCCESS: Backup is in default location: /var/www/html/wp-content/backups-dup-pro
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+STORAGE PROCESSING COMPLETED
+Attempting to purge old Backups at Default[ID: 3] type: Default Local
+Purge of old Backups at Default[ID: 3] storage completed. Num packages deleted 0
+
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE CREATION OR MANUAL STORAGE TRANSFER END: 2025-06-25 09:56:36
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+********************************************************************************
+
